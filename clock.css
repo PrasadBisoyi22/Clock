@@ -1,0 +1,131 @@
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clock {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #333;
+    border-radius: 50%;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.hour-hand {
+    position: absolute;
+    top: 24%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    width: 5px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 5px;
+    transform-origin: bottom;
+    z-index: 2;
+}
+
+.minute-hand {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 3px;
+    height: 110px;
+    background-color: #fff;
+    border-radius: 3px;
+    transform-origin: bottom;
+    z-index: 3;
+}
+
+.second-hand {
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 140px;
+    background-color: #ff0000;
+    border-radius: 2px;
+    transform-origin: bottom;
+    z-index: 4;
+}
+
+.numbers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.number {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.num1 {
+    transform: rotate(30deg);
+}
+
+.num2 {
+    transform: rotate(60deg);
+}
+
+.num3 {
+    transform: rotate(90deg);
+}
+
+.num4 {
+    transform: rotate(120deg);
+}
+
+.num5 {
+    transform: rotate(150deg);
+}
+
+.num6 {
+    transform: rotate(180deg);
+}
+
+.num7 {
+    transform: rotate(210deg);
+}
+
+.num8 {
+    transform: rotate(240deg);
+}
+
+.num9 {
+    transform: rotate(270deg);
+}
+
+.num10 {
+    transform: rotate(300deg);
+}
+
+.num11 {
+    transform: rotate(330deg);
+}
+
+.num12 {
+    transform: rotate(0deg);
+}
